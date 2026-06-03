@@ -1,4 +1,4 @@
-# 2026 研蘋果工作坊 — 報名網站（optimized 分支）
+# 2026 報名網站
 
 單頁活動報名站。純靜態前端 + Google Apps Script 後端（資料寫進 Google Sheet），部署於 GitHub Pages。
 
