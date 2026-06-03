@@ -36,7 +36,6 @@ python3 -m http.server 8000       # 本地預覽 → http://localhost:8000
 5. 驗收：填表送出 → Sheet「報名資料」分頁多一列；瀏覽器開 `/exec` → `{"status":"alive"}`
 
 ### B. GitHub Pages（WP8）
-> 本機未裝 `gh`，二擇一：
 - **網頁**：github 建 repo → `git remote add origin … && git push -u origin <branch>` → Settings/Pages 啟用
 - **gh CLI**：`brew install gh && gh auth login`（人工授權）後，`gh repo create … --push` + `gh api` 啟用 Pages
 
